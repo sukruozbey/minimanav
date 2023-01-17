@@ -10,6 +10,10 @@ public class Runner {
         myCar.hareket();
         myCar.dur();
         System.out.println(myCar.konfor);
+        
+
+
+
 
 
         Student tomHanks = new Student();

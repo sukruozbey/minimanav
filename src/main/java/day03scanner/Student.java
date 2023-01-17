@@ -7,7 +7,8 @@ public class Student {
 
     public byte age=25;
 
-    public void study (){System.out.println("Gunu gunune ders calısir..");
+    public void study (){
+        System.out.println("Gunu gunune ders calısir..");
     }
     public void feed(){System.out.println("Sağlıklı beslenir...");}
 

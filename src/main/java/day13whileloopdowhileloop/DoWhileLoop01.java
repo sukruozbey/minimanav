@@ -1,4 +1,4 @@
-package day08nestedifternary.day13whileloopdowhileloop;
+package day13whileloopdowhileloop;
 
 public class DoWhileLoop01 {
     public static void main(String[] args) {

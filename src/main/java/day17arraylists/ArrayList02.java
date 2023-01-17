@@ -1,6 +1,7 @@
 package day17arraylists;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class ArrayList02 {
@@ -12,6 +13,8 @@ public class ArrayList02 {
         initials.add('B');
         initials.add('M');
         initials.add('B');
+
+
         //Bir List'te kac eleman oldugunu nasil anlariz?
         int numOfElement = initials.size();
         System.out.println(numOfElement);//4

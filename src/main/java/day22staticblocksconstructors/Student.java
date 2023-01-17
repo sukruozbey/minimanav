@@ -2,6 +2,7 @@ package day22staticblocksconstructors;
 
 public class Student {
     String name;
+
     int age;
     int grade;
     String stdId;

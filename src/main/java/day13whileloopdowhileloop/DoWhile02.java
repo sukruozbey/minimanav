@@ -1,4 +1,4 @@
-package day08nestedifternary.day13whileloopdowhileloop;
+package day13whileloopdowhileloop;
 
 import java.util.Scanner;
 

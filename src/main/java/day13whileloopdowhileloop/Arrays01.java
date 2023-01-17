@@ -1,6 +1,7 @@
-package day08nestedifternary.day13whileloopdowhileloop;
+package day13whileloopdowhileloop;
 
 import java.util.Arrays;
+import java.util.List;
 
 public class Arrays01 {
     public static void main(String[] args) {
@@ -12,6 +13,7 @@ public class Arrays01 {
         //Array olusturmak icin Array elemanlarinin "data type" i ve "eleman sayisi" mutlaka yazilmalidir.
         String stdNames[] = new String[5];
 
+
         //Array console'a nasil yazdirilir?
         //toString() method'unu kullanmadan sadece array ismi ile yazdirirsaniz Java o Array'in adresini yazdirir
         System.out.println(Arrays.toString(stdNames));//[null, null, null, null, null]
@@ -22,6 +24,7 @@ public class Arrays01 {
         stdNames[1] = "Kemal";
         stdNames[3] = "Ezel";
         stdNames[4] = "Besir";
+
 
 
         System.out.println(Arrays.toString(stdNames));//[Cuneyt, Kemal, Ajda, Ezel, Besir]

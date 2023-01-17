@@ -9,6 +9,12 @@ public class StdRunner {
         //Sadece class ismini kullanmak yeterlidir.
         System.out.println(Student.stdName);
 
+        Student ad=new Student();
+
+
+
+
+
 
 
         //age non-static oldugundan ona ulasmak icin object olusturmak zorundayiz.
@@ -19,8 +25,10 @@ public class StdRunner {
 
 
 
+
         String initials = Student.getInitials("Sefa Eyer");
         System.out.println(initials);//SE
+
 
         int vowels = std1.countVowels("Tom Cruise");
         System.out.println(vowels);//4

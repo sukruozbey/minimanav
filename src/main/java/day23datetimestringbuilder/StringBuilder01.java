@@ -26,6 +26,7 @@ public class StringBuilder01 {
             StringBuilder sb1 = new StringBuilder("Python");
             System.out.println(sb1);//Python
 
+
             sb1.append("!").append("?").append(".");
             System.out.println(sb1);//Python!?.
 
@@ -56,7 +57,7 @@ public class StringBuilder01 {
             System.out.println(sb3.length());//3
             System.out.println(sb3.capacity());//6
 
-            sb3.insert(2,"XXXXXX");
+            sb3.insert(2,"XXXXXX");//offset 2 ise örneğin ilk iki karakteri es geç anlamına felir yani kapat demek
             System.out.println(sb3.length());//9
             System.out.println(sb3);//FlXXXXXXo
 

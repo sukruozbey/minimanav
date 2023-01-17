@@ -2,33 +2,33 @@ package tekrar;
 
 import day08nestedifternary.Ternary01;
 
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.Scanner;
+import java.util.*;
 
 public class Tekrar1 {
     public static void main(String[] args) {
-       /* yazılan değerin array içerisinde arayan Java Kodu yazınız.
+       /*
+```Bir likedList oluşturalım ve tüm elemanlarını tek tek yazdıralım.
+LinkedList elemanları: sari,mavi,mor,yesil,beyaz
+eklenen Çıktı:
+``sari
+`mavi```
+mor````
+yesil```
+beyaz
+```      */
 
-Array: [1551,1223,1443,1267,1789,1023,2020]
-``
-Aranan Değer:2020
-``
-Beklenen Çıktı:**True**
-``
-Aranan Değer:2010
-
-Beklenen Çıktı :**False**
-```
-        */
-        int arr[]={1551,1223,1443,1267,1789,1023,2020};
-        int arananDeger=2020;
+        List<String> likedList=new ArrayList<>();
+        likedList.add("sari");
+        likedList.add("mavi");
+        likedList.add("mor");
+        likedList.add("yesil");
+        likedList.add("beyaz");
 
 
 
-
-
+        for (String w:likedList){
+            System.out.println(w);
+        }
 
 
 

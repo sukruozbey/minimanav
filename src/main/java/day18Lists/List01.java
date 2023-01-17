@@ -25,7 +25,7 @@ public class List01 {
         //ages.remove(nonPrimitive);
 
         //2.Yol: Recommended
-        //ages.remove((Integer)12);
+        ages.remove((Integer)12);
 
         //3.Yol
         //ages.remove(Integer.valueOf(12));// 2 method kullanildi

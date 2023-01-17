@@ -18,6 +18,7 @@ int sonucc=x+y;
         System.out.println(sonucc);
 
 
+
             int sonuc = add(30, 50);
             System.out.println(sonuc);
 
@@ -32,7 +33,8 @@ int sonucc=x+y;
 
         }
 
-        public static int add(int a, int b){return a+b;}
+        public static int add(int a, int b){
+        return a+b;}
 
         protected static long multiply(int a, int b){
             return a*b;

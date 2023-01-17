@@ -1,7 +1,5 @@
 package advanced_practise.practise07;
 
-import java.time.LocalDate;
-
 public class Q04_Constructor_Market {
     //Ürün adı, ürün fiyatı ve (varsa) son kullanma tarihlerini yazdıran bir market programı yazınız.
     //Birim fiyatı 99 lira üzeri olan ürünlere %10 vergi indirimi uygulayınız.

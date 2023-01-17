@@ -22,6 +22,7 @@ public class Arrays01 {
                 break;
             }
             stdNames[i-1] = stdName;
+
         }
         System.out.println(Arrays.toString(stdNames));
 
