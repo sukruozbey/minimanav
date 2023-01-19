@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class IfStatement04 {
     public static void main(String[] args) {
-
         //Example 1: Gun sayisini verdiginizde gun ismini yazan kodu yaziniz
         Scanner input = new Scanner(System.in);
         System.out.println("Lutfen kacinci gun oldugunu giriniz...");
@@ -29,5 +28,9 @@ public class IfStatement04 {
         }
 
 
+
     }
+
+
+
 }

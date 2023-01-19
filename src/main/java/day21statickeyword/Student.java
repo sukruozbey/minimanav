@@ -13,6 +13,7 @@ public class Student {
           Non-static Variable'larin diger adi "Instance Variable" veya "Object Variable" dir.
      */
 
+
     public static String stdName = "Tom Hanks";
     public int age = 13;
 
@@ -24,7 +25,7 @@ public class Student {
     }
 
     //Ogrenci ismindeki sesli harfleri(a, e, i, o, u) sayan bir method olusturunuz
-    public int countVowels(String name){
+    public static int countVowels(String name){
 
         int counter = 0;
 

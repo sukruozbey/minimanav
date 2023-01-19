@@ -25,7 +25,13 @@ public class IfStatement02 {
         }else{
             System.out.println("Tek sayi...");
         }
+
+
+
+
     }//main
+
+
 
 
 

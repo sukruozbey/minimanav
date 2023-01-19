@@ -1,6 +1,11 @@
 package day02datatypesmethodcreation;
 
 public class MethodCreation01 {
+
+
+
+
+
     public static void main(String[] args) {
 
 
@@ -19,10 +24,13 @@ int sonucc=x+y;
 
 
 
-            int sonuc = add(30, 50);
-            System.out.println(sonuc);
 
-            long carpmaSonucu = multiply(3, 8);
+
+
+           int  sonuc= MethodCreation01.topla(30,50);
+        System.out.println("sonuc = " + sonuc);
+
+        long carpmaSonucu = multiply(3, 8);
             System.out.println(carpmaSonucu);
 
             int ucluSonuc =firstTwoMultiplyThirdAdd(2, 5, 8);
@@ -33,8 +41,9 @@ int sonucc=x+y;
 
         }
 
-        public static int add(int a, int b){
-        return a+b;}
+        public  static int topla(int a,int b){
+        return a+b;
+        }
 
         protected static long multiply(int a, int b){
             return a*b;

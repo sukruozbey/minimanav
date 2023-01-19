@@ -21,7 +21,7 @@ public class PassByValue01 {
         System.out.println("veteranShirtPrice = " + veteranShirtPrice);
 
     }
-    public static double discount(String state, double price){
+  static double discount(String state, double price){
         switch (state){
             case "student":
                 price=price*0.90;

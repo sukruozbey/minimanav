@@ -9,7 +9,7 @@ public class Forloop04 {
         int sum = 0;
 
         for(int i=5; i<9; i++){
-            sum = sum + i;
+            sum +=  i;
         }
         System.out.println(sum);// 26
 
